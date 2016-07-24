@@ -1,5 +1,5 @@
 ********************************************************************************
-*                      Sunday, July 24, 2016 10:28:59 AM                       *
+*                       Sunday, July 24, 2016 4:09:43 PM                       *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
@@ -11,9 +11,9 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-2ea4ad089f8105448990847bf81bb436
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-a144cf87eeeceed44b10ce556770d6d1
 Exit code: 0
-Elapsed time: 3.09 sec
+Elapsed time: 3.22 sec
 
 - Compiler output (0 lines):
 
@@ -24,117 +24,11 @@ Elapsed time: 3.09 sec
 Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp.dll
 Exit code: 0
-Elapsed time: 0.13 sec
+Elapsed time: 0.31 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                      Sunday, July 24, 2016 10:30:45 AM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.8.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\denny\Development\NodeStateMachine
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-3661857524c6c804e857ade7bb4d5bcc
-Exit code: 1
-Elapsed time: 1.80 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (7 lines):
-0: Assets\Node_Editor\Node_Editor\Framework\NodeEditorInputSystem.cs(223,27): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-1: Assets\Node_Editor\Node_Editor\Framework\NodeEditorInputSystem.cs(238,48): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-2: Assets\Node_Editor\Node_Editor\Framework\NodeEditorInputSystem.cs(256,48): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-3: Assets\Node_Editor\Node_Editor\Framework\NodeEditorInputControls.cs(113,54): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-4: Assets\Node_Editor\Node_Editor\Framework\NodeEditorInputControls.cs(159,48): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-5: Assets\Node_Editor\Node_Editor\Framework\NodeEditorInputControls.cs(268,61): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-6: Assets\Node_Editor\Node_Editor\Framework\NodeEditorInputControls.cs(269,59): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-********************************************************************************
-*                      Sunday, July 24, 2016 10:31:07 AM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.8.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\denny\Development\NodeStateMachine
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-670ff57332ea7fb4faae238967f9f0bb
-Exit code: 1
-Elapsed time: 1.79 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (7 lines):
-0: Assets\NodeFramework\Node_Editor\Framework\NodeEditorInputSystem.cs(223,27): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-1: Assets\NodeFramework\Node_Editor\Framework\NodeEditorInputSystem.cs(238,48): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-2: Assets\NodeFramework\Node_Editor\Framework\NodeEditorInputSystem.cs(256,48): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-3: Assets\NodeFramework\Node_Editor\Framework\NodeEditorInputControls.cs(113,54): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-4: Assets\NodeFramework\Node_Editor\Framework\NodeEditorInputControls.cs(159,48): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-5: Assets\NodeFramework\Node_Editor\Framework\NodeEditorInputControls.cs(268,61): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-6: Assets\NodeFramework\Node_Editor\Framework\NodeEditorInputControls.cs(269,59): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-********************************************************************************
-*                      Sunday, July 24, 2016 10:34:50 AM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.8.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\denny\Development\NodeStateMachine
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-41d17de4abc31bd4799c97bd9da672bc
-Exit code: 1
-Elapsed time: 1.83 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (2 lines):
-0: Assets\NodeFramework\Node_Editor\Framework\NodeEditorInputControls.cs(268,61): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-1: Assets\NodeFramework\Node_Editor\Framework\NodeEditorInputControls.cs(269,59): error CS0617: 'priority' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.
-********************************************************************************
-*                      Sunday, July 24, 2016 10:35:29 AM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.8.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\denny\Development\NodeStateMachine
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-76f406318277cc94cb17c1bf21bf1971
-Exit code: 0
-Elapsed time: 2.86 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\NodeFramework\Node_Editor\Framework\NodeEditor.cs(27,26): warning CS0649: Field 'NodeEditor.NEUpdate' is never assigned to, and will always have its default value null
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.15 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, July 24, 2016 10:35:32 AM                       *
+*                       Sunday, July 24, 2016 4:09:47 PM                       *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
@@ -146,24 +40,25 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-263c9f057d1fadf4eb313bc29af05935
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-511baba53e9e1ec4e8cb24364757bd07
 Exit code: 0
-Elapsed time: 3.06 sec
+Elapsed time: 3.16 sec
 
 - Compiler output (0 lines):
 
-- Compiler errors (0 lines):
+- Compiler errors (1 line):
+0: Assets\Editor\NodeEditorWindow.cs(24,9): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
 
 - PDB to MDB conversion --------------------------------------
 
 Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp-Editor.dll
 Exit code: 0
-Elapsed time: 0.13 sec
+Elapsed time: 0.19 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                      Sunday, July 24, 2016 10:37:07 AM                       *
+*                       Sunday, July 24, 2016 4:10:02 PM                       *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
@@ -175,98 +70,9 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-1d427eeb965d7584ca0068bf5971e04b
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-095e4f2d8347fbe469c01c88175a6202
 Exit code: 0
-Elapsed time: 3.00 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Node_Editor\Node_Editor\Framework\NodeEditor.cs(27,26): warning CS0649: Field 'NodeEditor.NEUpdate' is never assigned to, and will always have its default value null
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.15 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, July 24, 2016 10:37:13 AM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.8.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: C:\Users\denny\Development\NodeStateMachine
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-397ad00589d51a942ae4b191510ec378
-Exit code: 0
-Elapsed time: 3.06 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.14 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, July 24, 2016 10:37:22 AM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.8.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp-firstpass.dll
-Project directory: C:\Users\denny\Development\NodeStateMachine
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-8bf6e94bf9e2d5140993b6ea7280b0f8
-Exit code: 0
-Elapsed time: 2.95 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Plugins\Node_Editor\Node_Editor\Framework\NodeEditor.cs(27,26): warning CS0649: Field 'NodeEditor.NEUpdate' is never assigned to, and will always have its default value null
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-firstpass.dll
-Exit code: 0
-Elapsed time: 0.14 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, July 24, 2016 10:37:25 AM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.8.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\denny\Development\NodeStateMachine
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-b507ea2057ebb9544a21834aa6c2197b
-Exit code: 0
-Elapsed time: 3.02 sec
+Elapsed time: 2.57 sec
 
 - Compiler output (0 lines):
 
@@ -281,11 +87,11 @@ Elapsed time: 0.16 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                      Sunday, July 24, 2016 10:37:25 AM                       *
+*                       Sunday, July 24, 2016 4:10:05 PM                       *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
-Target assembly: Assembly-CSharp-Editor-firstpass.dll
+Target assembly: Assembly-CSharp-Editor.dll
 Project directory: C:\Users\denny\Development\NodeStateMachine
 Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
 Compiler: Microsoft C# 6.0
@@ -293,19 +99,20 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-b51af451b8611124b8aaa8bec9cf76e0
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-015b02a7e24e2994c97170187f2d9adc
 Exit code: 0
-Elapsed time: 3.40 sec
+Elapsed time: 3.04 sec
 
 - Compiler output (0 lines):
 
-- Compiler errors (0 lines):
+- Compiler errors (1 line):
+0: Assets\Editor\NodeEditorWindow.cs(24,9): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
 
 - PDB to MDB conversion --------------------------------------
 
 Process: C:\Users\denny\Development\NodeStateMachine\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor-firstpass.dll
+Arguments: Temp\Assembly-CSharp-Editor.dll
 Exit code: 0
-Elapsed time: 0.12 sec
+Elapsed time: 0.15 sec
 
 - pdb2mdb.exe output (0 lines):
